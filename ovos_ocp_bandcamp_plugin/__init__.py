@@ -1,5 +1,4 @@
 from ovos_plugin_manager.templates.ocp import OCPStreamExtractor
-from ovos_plugin_manager.utils import classproperty
 from py_bandcamp.utils import get_stream_data
 
 
@@ -9,7 +8,7 @@ class OCPBandcampExtractor(OCPStreamExtractor):
         super().__init__(ocp_settings)
         self.settings = self.ocp_settings.get("bandcamp", {})
 
-    @classproperty
+    @property
     def supported_seis(self):
         """
         skills may return results requesting a specific extractor to be used
@@ -25,7 +24,7 @@ class OCPBandcampExtractor(OCPStreamExtractor):
         return any([uri.startswith(sei) for sei in self.supported_seis]) or \
                self.is_bandcamp(uri)
 
-    def extract_stream(self, uri):
+    def extract_stream(self, url, video=True):
         """ return the real uri that can be played by OCP """
         data = get_stream_data(url)
         data["uri"] = data.pop("stream")
