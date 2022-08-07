@@ -6,6 +6,10 @@ from py_bandcamp.utils import get_stream_data
 
 class OCPBandcampExtractor(OCPStreamExtractor):
 
+    def __init__(self, ocp_settings=None):
+        super().__init__(ocp_settings)
+        self.settings = self.ocp_settings.get("bandcamp", {})
+
     @property
     def supported_seis(self):
         """
@@ -24,10 +28,6 @@ class OCPBandcampExtractor(OCPStreamExtractor):
 
     def extract_stream(self, uri):
         """ return the real uri that can be played by OCP """
-        return self.get_pybandcamp_stream(uri)
-
-    @staticmethod
-    def get_pybandcamp_stream(url):
         data = get_stream_data(url)
         data["uri"] = data.pop("stream")
         return data
