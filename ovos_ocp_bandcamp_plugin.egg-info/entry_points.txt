@@ -1,0 +1,6 @@
+[ovos.ocp.extractor]
+ovos-ocp-bandcamp-plugin = ovos_ocp_bandcamp_plugin:OCPBandcampExtractor
+
+[ovos.ocp.extractor.config]
+ovos-ocp-bandcamp-plugin.config = ovos_ocp_bandcamp_plugin:OCPBandcampExtractorConfig
+
