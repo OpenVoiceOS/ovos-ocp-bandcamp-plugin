@@ -1,2 +1,2 @@
 py_bandcamp
-ovos-plugin-manager
+ovos-plugin-manager>=0.0.1,<1.0.0
