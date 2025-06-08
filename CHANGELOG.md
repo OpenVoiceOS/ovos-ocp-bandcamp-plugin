@@ -1,20 +1,12 @@
 # Changelog
 
-## [0.0.2a2](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.2a2) (2024-09-11)
+## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.3a1) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/V0.0.2a1...0.0.2a2)
-
-**Merged pull requests:**
-
-- feat:semver [\#4](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/4) ([JarbasAl](https://github.com/JarbasAl))
-
-## [V0.0.2a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/V0.0.2a1) (2024-01-12)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/V0.0.1...V0.0.2a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.2...0.0.3a1)
 
 **Merged pull requests:**
 
-- fix/dependencies [\#3](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/3) ([NeonJarbas](https://github.com/NeonJarbas))
+- fix: compatibility with ovos-plugin-manager 1.X.X [\#6](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/6) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
