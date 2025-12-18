@@ -1,12 +1,12 @@
 # Changelog
 
-## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.3a1) (2025-06-08)
+## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a1) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.2...0.0.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.3...0.0.4a1)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#6](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/6) ([JarbasAl](https://github.com/JarbasAl))
+- chore: Configure Renovate [\#8](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
