@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.4a4](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a4) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a3...0.0.4a4)
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/checkout action to v6 [\#16](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update pypa/gh-action-pip-audit action to v1.1.0 [\#15](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/15) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.4a3](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a3) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a2...0.0.4a3)
