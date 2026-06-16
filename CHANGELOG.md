@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.4a5](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a5) (2026-06-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a4...0.0.4a5)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#19](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.4a4](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a4) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a3...0.0.4a4)
