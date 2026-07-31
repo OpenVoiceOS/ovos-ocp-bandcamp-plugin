@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.4a6](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a6) (2026-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a5...0.0.4a6)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#22](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/22) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.4a5](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a5) (2026-06-16)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a4...0.0.4a5)
