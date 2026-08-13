@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 
 from ovos_ocp_bandcamp_plugin import (
     OCPBandcampExtractor,
@@ -45,6 +46,20 @@ class TestOCPBandcampExtractor(unittest.TestCase):
 
     def test_settings_default(self):
         self.assertEqual(self.extractor.settings, {})
+
+    def test_extract_stream_strips_sei_prefix(self):
+        """regression for https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/issues/2
+
+        "bandcamp//<url>" (the sei-prefixed uri OCP hands extractors) must
+        have the "bandcamp//" prefix stripped before being handed to
+        py_bandcamp, otherwise requests blows up with
+        `InvalidSchema: No connection adapters were found for 'bandcamp//https://...'`
+        """
+        real_url = "https://dr1p.bandcamp.com/track/flowerbomb"
+        with patch("ovos_ocp_bandcamp_plugin.get_stream_data") as mocked:
+            mocked.return_value = {"stream": "https://example.com/stream.mp3"}
+            self.extractor.extract_stream(f"bandcamp//{real_url}")
+        mocked.assert_called_once_with(real_url)
 
 
 class TestOCPBandcampExtractorConfig(unittest.TestCase):

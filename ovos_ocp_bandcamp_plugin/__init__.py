@@ -29,6 +29,11 @@ class OCPBandcampExtractor(OCPStreamExtractor):
 
     def extract_stream(self, url, video=True):
         """ return the real uri that can be played by OCP """
+        for sei in self.supported_seis:
+            prefix = f"{sei}//"
+            if url.startswith(prefix):
+                url = url[len(prefix):]
+                break
         data = get_stream_data(url)
         data["uri"] = data.pop("stream")
         return data
