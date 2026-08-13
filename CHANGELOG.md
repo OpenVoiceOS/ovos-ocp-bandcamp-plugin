@@ -1,12 +1,61 @@
 # Changelog
 
-## [0.0.3a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.3a1) (2025-06-08)
+## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.5a1) (2026-08-13)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.2...0.0.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a6...0.0.5a1)
 
 **Merged pull requests:**
 
-- fix: compatibility with ovos-plugin-manager 1.X.X [\#6](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/6) ([JarbasAl](https://github.com/JarbasAl))
+- fix: strip sei prefix before passing url to py\_bandcamp [\#24](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/24) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.4a6](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a6) (2026-07-31)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a5...0.0.4a6)
+
+**Merged pull requests:**
+
+- docs: rewrite README in Simplified Technical English [\#22](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/22) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.4a5](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a5) (2026-06-16)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a4...0.0.4a5)
+
+**Merged pull requests:**
+
+- chore: add missing shared CI workflows [\#19](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/19) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.4a4](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a4) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a3...0.0.4a4)
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/checkout action to v6 [\#16](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update pypa/gh-action-pip-audit action to v1.1.0 [\#15](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/15) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.4a3](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a2...0.0.4a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency ovos-plugin-manager to v2 [\#14](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.4a2](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a2) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a1...0.0.4a2)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#9](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.4a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a1) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.3...0.0.4a1)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#8](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
 
 
 
