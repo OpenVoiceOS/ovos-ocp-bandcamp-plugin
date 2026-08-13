@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.5a1) (2026-08-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a6...0.0.5a1)
+
+**Merged pull requests:**
+
+- fix: strip sei prefix before passing url to py\_bandcamp [\#24](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/pull/24) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.4a6](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/tree/0.0.4a6) (2026-07-31)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-ocp-bandcamp-plugin/compare/0.0.4a5...0.0.4a6)
